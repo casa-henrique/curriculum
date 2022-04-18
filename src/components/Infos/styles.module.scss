@@ -1,0 +1,150 @@
+.sectionsWrapper {
+  display: flex;
+  width: 100%;
+
+  justify-content: center;
+
+  padding: 2rem;
+  gap: 6rem;
+
+  h2 {
+    font-size: 1.3rem;
+    font-family: Roboto Mono;
+  }
+
+  span {
+    color: var(--purple-500);
+    font-weight: bold;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+
+    width: 33.33%;
+
+    gap: 1.5rem;
+  }
+
+  p {
+    color: var(--gray-200);
+  }
+}
+
+.experience {
+  > div {
+    display: flex;
+
+    gap: 2rem;
+
+    > div {
+      display: flex;
+      flex-direction: column;
+
+      gap: 2rem;
+    }
+  }
+
+  > div > div > div {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+  }
+}
+
+.school {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 1.5rem;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
+  }
+
+  > div > div {
+    display: flex;
+    align-items: center;
+
+    gap: 1rem;
+
+    > h3 {
+      text-align: center;
+    }
+  }
+}
+
+.platforms {
+  align-items: center;
+
+  > h2 {
+    white-space: nowrap;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 2.5rem;
+  }
+}
+
+.doubleSections {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 2rem;
+}
+
+.objective {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  width: 100%;
+
+  gap: 1.5rem;
+
+  > p {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .sectionsWrapper {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 4rem;
+
+    section {
+      width: 100%;
+      gap: 4rem;
+    }
+  }
+  .experience {
+    align-items: center;
+  }
+  .objective {
+    width: 50%;
+  }
+}
+
+@media (max-width: 720px) {
+  .objective {
+    width: 80%;
+  }
+}

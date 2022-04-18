@@ -1,0 +1,45 @@
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 1rem;
+
+  padding: 2rem;
+
+  margin-top: 2rem;
+}
+
+.buttonsWrapper {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+
+  border: 1px solid var(--purple-700);
+  border-radius: 0.5rem;
+}
+
+.enabled {
+  background-color: var(--purple-700);
+
+  transition: background-color 0.5s ease-in;
+}
+
+.enabled,
+.disabled {
+  color: var(--white);
+
+  padding: 0.5rem;
+
+  font-weight: bold;
+  font-family: Roboto Mono;
+
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.disabled {
+  background-color: transparent;
+
+  transition: background-color 0.5s ease-out;
+}

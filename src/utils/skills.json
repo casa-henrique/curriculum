@@ -1,0 +1,81 @@
+[
+  {
+    "title": "Linguagens",
+    "itens": [
+      { "name": "JavaScript", "img": "/images/Js.png" },
+      { "name": "Python", "img": "/images/Python.png" },
+      { "name": "PHP", "img": "/images/Php.png" },
+      { "name": "Typescript", "img": "/images/Typescript.png" },
+      { "name": "Html5", "img": "/images/Html5.png" },
+      { "name": "Css3", "img": "/images/Css3.png" }
+    ]
+  },
+
+  {
+    "title": "Ui/Ux",
+    "itens": [
+      { "name": "Figma", "img": "/images/Figma.png" },
+      { "name": "Photoshop", "img": "/images/Photoshop.png" },
+      { "name": "Illustrator", "img": "/images/Illustrator.png" },
+      { "name": "Material-UI", "img": "/images/Material.png" },
+      { "name": "Styled Components", "img": "/images/Styled.png" }
+    ]
+  },
+
+  {
+    "title": "Diversos",
+    "itens": [
+      { "name": "Webpack", "img": "/images/Webpack.png" },
+      { "name": "Babel", "img": "/images/Babel.png" },
+      { "name": "MirageJs", "img": "/images/MirageJs.png" },
+      { "name": "Context API", "img": "/images/Context.png" },
+      { "name": "SEO", "img": "/images/Seo.png" },
+      { "name": "Aplicação LGPD", "img": "/images/Lgpd.png" },
+      { "name": "Axios", "img": "/images/Axios.png" },
+      { "name": "Insomnia", "img": "/images/Insomnia.png" }
+    ]
+  },
+
+  {
+    "title": "FrameWorks",
+    "itens": [
+      { "name": "React", "img": "/images/React.png" },
+      { "name": "Next", "img": "/images/Next.png" },
+      { "name": "Laravel", "img": "/images/Laravel.png" }
+    ]
+  },
+
+  {
+    "title": "SCM",
+    "itens": [
+      { "name": "Git", "img": "/images/Git.png" },
+      { "name": "Docker", "img": "/images/Docker.png" }
+    ]
+  },
+
+  {
+    "title": "CMS",
+    "itens": [
+      { "name": "Wordpress", "img": "/images/Wordpress.png" },
+      { "name": "E-commerce", "img": "/images/Ecommerce.png" }
+    ]
+  },
+
+  {
+    "title": "Metodologias",
+    "itens": [
+      { "name": "Agile", "img": "/images/Agile.png" },
+      { "name": "Scrum", "img": "/images/Scrum.png" },
+      { "name": "Kanban", "img": "/images/Kanban.png" }
+    ]
+  },
+
+  {
+    "title": "Hardware",
+    "itens": [
+      { "name": "Crimpagem de cabo de rede", "img": "/images/Crimp.png" },
+      { "name": "Montagem de computadores", "img": "/images/Pc.png" },
+      { "name": "Arduino", "img": "/images/Arduino.png" }
+    ]
+  }
+]
