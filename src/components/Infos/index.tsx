@@ -81,19 +81,23 @@ export function Infos() {
       <section className={styles.platforms}>
         <h2>Plataformas de Estudo</h2>
         <div>
-          <a href="https://www.rocketseat.com.br/">
+          <a
+            href="https://www.rocketseat.com.br/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="/images/Rocketseat-logo.png" alt="Rocketseat logo" />
           </a>
-          <a href="https://fullcycle.com.br/">
+          <a href="https://fullcycle.com.br/" target="_blank" rel="noreferrer">
             <img src="/images/Fullcycle-logo.png" alt="Fullcycle logo" />
           </a>
-          <a href="https://www.alura.com.br/">
+          <a href="https://www.alura.com.br/" target="_blank" rel="noreferrer">
             <img src="/images/Alura-logo.png" alt="Alura logo" />
           </a>
-          <a href="https://www.udemy.com/">
+          <a href="https://www.udemy.com/" target="_blank" rel="noreferrer">
             <img src="/images/Udemy-logo.png" alt="Udemy logo" />
           </a>
-          <a href="https://www.dio.me/">
+          <a href="https://www.dio.me/" target="_blank" rel="noreferrer">
             <img src="/images/Dio-logo.png" alt="Dio logo" />
           </a>
         </div>

@@ -13,13 +13,21 @@ export function Header() {
       <div className={styles.menu}>
         <p>Abril 2022</p>
         <div>
-          <a href="mailto:riquecasa@gmail.com" target="_blank">
+          <a href="mailto:riquecasa@gmail.com" target="_blank" rel="noreferrer">
             <img src="/images/Email.png" alt="icone de email" />
           </a>
-          <a href="https://github.com/casa-henrique" target="_blank">
+          <a
+            href="https://github.com/casa-henrique"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="/images/Github.png" alt="icone do github" />
           </a>
-          <a href="https://www.linkedin.com/in/henrique-casa/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/henrique-casa/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="/images/Linkedin.png" alt="icone do linkedin" />
           </a>
         </div>
