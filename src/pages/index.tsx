@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Curriculo - Henrique Casagrande</title>
-        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+        <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
       </Head>
 
       <Header />
