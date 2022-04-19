@@ -51,7 +51,7 @@ export function Infos() {
               </h3>
               <p>
                 Análise e desenvolvimento de sistemas <br />
-                <span>Uniasselvi</span>
+                <span>Uniasselvi - 3 Semestre</span>
               </p>
             </div>
 
@@ -86,19 +86,25 @@ export function Infos() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="/images/Rocketseat-logo.png" alt="Rocketseat logo" />
+            <img
+              src="/images/plataforms/Rocketseat-logo.png"
+              alt="Rocketseat logo"
+            />
           </a>
           <a href="https://fullcycle.com.br/" target="_blank" rel="noreferrer">
-            <img src="/images/Fullcycle-logo.png" alt="Fullcycle logo" />
+            <img
+              src="/images/plataforms/Fullcycle-logo.png"
+              alt="Fullcycle logo"
+            />
           </a>
           <a href="https://www.alura.com.br/" target="_blank" rel="noreferrer">
-            <img src="/images/Alura-logo.png" alt="Alura logo" />
+            <img src="/images/plataforms/Alura-logo.png" alt="Alura logo" />
           </a>
           <a href="https://www.udemy.com/" target="_blank" rel="noreferrer">
-            <img src="/images/Udemy-logo.png" alt="Udemy logo" />
+            <img src="/images/plataforms/Udemy-logo.png" alt="Udemy logo" />
           </a>
           <a href="https://www.dio.me/" target="_blank" rel="noreferrer">
-            <img src="/images/Dio-logo.png" alt="Dio logo" />
+            <img src="/images/plataforms/Dio-logo.png" alt="Dio logo" />
           </a>
         </div>
       </section>

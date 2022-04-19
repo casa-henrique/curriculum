@@ -14,21 +14,21 @@ export function Header() {
         <p>Abril 2022</p>
         <div>
           <a href="mailto:riquecasa@gmail.com" target="_blank" rel="noreferrer">
-            <img src="/images/Email.png" alt="icone de email" />
+            <img src="/images/Email.svg" alt="icone de email" />
           </a>
           <a
             href="https://github.com/casa-henrique"
             target="_blank"
             rel="noreferrer"
           >
-            <img src="/images/Github.png" alt="icone do github" />
+            <img src="/images/Github.svg" alt="icone do github" />
           </a>
           <a
             href="https://www.linkedin.com/in/henrique-casa/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src="/images/Linkedin.png" alt="icone do linkedin" />
+            <img src="/images/Linkedin.svg" alt="icone do linkedin" />
           </a>
         </div>
       </div>
