@@ -87,24 +87,24 @@ export function Infos() {
             rel="noreferrer"
           >
             <img
-              src="/images/plataforms/Rocketseat-logo.png"
+              src="/images/plataforms/Rocketseat-logo.svg"
               alt="Rocketseat logo"
             />
           </a>
           <a href="https://fullcycle.com.br/" target="_blank" rel="noreferrer">
             <img
-              src="/images/plataforms/Fullcycle-logo.png"
+              src="/images/plataforms/Fullcycle-logo.svg"
               alt="Fullcycle logo"
             />
           </a>
           <a href="https://www.alura.com.br/" target="_blank" rel="noreferrer">
-            <img src="/images/plataforms/Alura-logo.png" alt="Alura logo" />
+            <img src="/images/plataforms/Alura-logo.svg" alt="Alura logo" />
           </a>
           <a href="https://www.udemy.com/" target="_blank" rel="noreferrer">
-            <img src="/images/plataforms/Udemy-logo.png" alt="Udemy logo" />
+            <img src="/images/plataforms/Udemy-logo.svg" alt="Udemy logo" />
           </a>
           <a href="https://www.dio.me/" target="_blank" rel="noreferrer">
-            <img src="/images/plataforms/Dio-logo.png" alt="Dio logo" />
+            <img src="/images/plataforms/Dio-logo.svg" alt="Dio logo" />
           </a>
         </div>
       </section>
