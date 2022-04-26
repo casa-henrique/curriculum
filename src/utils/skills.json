@@ -32,7 +32,8 @@
       { "name": "SEO", "img": "/images/skills/Seo.png" },
       { "name": "Aplicação LGPD", "img": "/images/skills/Lgpd.png" },
       { "name": "Axios", "img": "/images/skills/Axios.png" },
-      { "name": "Insomnia", "img": "/images/skills/Insomnia.png" }
+      { "name": "Insomnia", "img": "/images/skills/Insomnia.png" },
+      { "name": "NodeJS", "img": "/images/skills/NodeJS.png" }
     ]
   },
 
@@ -41,7 +42,9 @@
     "itens": [
       { "name": "React", "img": "/images/skills/React.png" },
       { "name": "Next", "img": "/images/skills/Next.png" },
-      { "name": "Laravel", "img": "/images/skills/Laravel.png" }
+      { "name": "Laravel", "img": "/images/skills/Laravel.png" },
+      { "name": "ExpressJS", "img": "/images/skills/ExpressJS.png" },
+      { "name": "NestJS", "img": "/images/skills/NestJS.png" }
     ]
   },
 
