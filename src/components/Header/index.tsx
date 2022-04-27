@@ -1,6 +1,11 @@
 import styles from "./styles.module.scss";
 
 export function Header() {
+  const date = new Date();
+
+  const year = date.getFullYear();
+  const month = date.toLocaleString("default", { month: "long" });
+
   return (
     <div className={styles.background}>
       <img src="/images/Eu.png" alt="Foto de Henrique Casagrande" />
@@ -11,7 +16,9 @@ export function Header() {
       </div>
 
       <div className={styles.menu}>
-        <p>Abril 2022</p>
+        <p>
+          {month}, {year}
+        </p>
         <div>
           <a href="mailto:riquecasa@gmail.com" target="_blank" rel="noreferrer">
             <img src="/images/Email.svg" alt="icone de email" />
