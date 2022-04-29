@@ -38,6 +38,22 @@
     align-items: center;
 
     gap: 1rem;
+
+    > a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 4rem;
+      height: 4rem;
+
+      background-color: var(--white);
+
+      border-radius: 100%;
+      > div {
+        pointer-events: none;
+      }
+    }
   }
 }
 
