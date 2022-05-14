@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Camera, Trash } from "phosphor-react";
 
+import { isMobile } from "react-device-detect";
+
 import html2canvas from "html2canvas";
 import { Loading } from "./Loading";
 
@@ -18,12 +20,20 @@ export function ScreenshotButton({
   async function handleTakenScreenshot() {
     setIsTakingScreenshot(true);
 
+    if (isMobile) {
+      const canvas = await html2canvas(document.querySelector("html")!, {
+        height: 250,
+      });
+      const base64image = canvas.toDataURL("image/jpeg", 0.6);
+
+      onScreenshotTook(base64image);
+      setIsTakingScreenshot(false);
+    }
+
     const canvas = await html2canvas(document.querySelector("html")!, {
       height: 750,
     }); //Tirando o print
     const base64image = canvas.toDataURL("image/jpeg", 0.6); //Convertendo para png
-
-    console.log(base64image);
 
     onScreenshotTook(base64image);
     setIsTakingScreenshot(false);
