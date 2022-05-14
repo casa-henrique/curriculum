@@ -18,8 +18,12 @@ export function ScreenshotButton({
   async function handleTakenScreenshot() {
     setIsTakingScreenshot(true);
 
-    const canvas = await html2canvas(document.querySelector("html")!); //Tirando o print
-    const base64image = canvas.toDataURL("image/png"); //Convertendo para png
+    const canvas = await html2canvas(document.querySelector("html")!, {
+      height: 750,
+    }); //Tirando o print
+    const base64image = canvas.toDataURL("image/jpeg", 0.6); //Convertendo para png
+
+    console.log(base64image);
 
     onScreenshotTook(base64image);
     setIsTakingScreenshot(false);

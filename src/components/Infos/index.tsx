@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./styles.module.scss";
 
 export function Infos() {
@@ -7,9 +8,11 @@ export function Infos() {
         <h2>Experiência Profissional</h2>
 
         <div>
-          <img
+          <Image
             src="/images/Timeline.png"
             alt="Timeline das experiências profissionais"
+            width={10}
+            height={6}
           />
 
           <div>
@@ -86,25 +89,44 @@ export function Infos() {
             target="_blank"
             rel="noreferrer"
           >
-            <img
+            <Image
               src="/images/plataforms/Rocketseat-logo.svg"
               alt="Rocketseat logo"
+              width={150}
+              height={40}
             />
           </a>
           <a href="https://fullcycle.com.br/" target="_blank" rel="noreferrer">
-            <img
+            <Image
               src="/images/plataforms/Fullcycle-logo.svg"
               alt="Fullcycle logo"
+              width={130}
+              height={40}
             />
           </a>
           <a href="https://www.alura.com.br/" target="_blank" rel="noreferrer">
-            <img src="/images/plataforms/Alura-logo.svg" alt="Alura logo" />
+            <Image
+              src="/images/plataforms/Alura-logo.svg"
+              alt="Alura logo"
+              width={130}
+              height={40}
+            />
           </a>
           <a href="https://www.udemy.com/" target="_blank" rel="noreferrer">
-            <img src="/images/plataforms/Udemy-logo.svg" alt="Udemy logo" />
+            <Image
+              src="/images/plataforms/Udemy-logo.svg"
+              alt="Udemy logo"
+              width={130}
+              height={40}
+            />
           </a>
           <a href="https://www.dio.me/" target="_blank" rel="noreferrer">
-            <img src="/images/plataforms/Dio-logo.svg" alt="Dio logo" />
+            <Image
+              src="/images/plataforms/Dio-logo.svg"
+              alt="Dio logo"
+              width={130}
+              height={40}
+            />
           </a>
         </div>
       </section>
