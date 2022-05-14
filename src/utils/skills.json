@@ -16,7 +16,8 @@
       { "name": "Figma", "img": "/images/skills/Figma.png" },
       { "name": "Photoshop", "img": "/images/skills/Photoshop.png" },
       { "name": "Illustrator", "img": "/images/skills/Illustrator.png" },
-      { "name": "Material-UI", "img": "/images/skills/Material.png" }
+      { "name": "Material-UI", "img": "/images/skills/Material.png" },
+      { "name": "TailwindCss", "img": "/images/skills/Tailwind.png" }
     ]
   },
 
